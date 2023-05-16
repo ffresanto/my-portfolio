@@ -3,4 +3,59 @@
     color: var(--cor-c1);
     height: 90vh;
     font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.introduction-content{
+    margin: auto;
+}
+
+.detail{
+    display: inline;
+    color: var(--cor-p3);
+}
+
+.introduction-fs-m {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50px;
+    color: var(--cor-p3);
+}
+
+.introduction-fs-g {
+    font-size: 124px;
+    letter-spacing: -6px;
+    line-height: 124px;
+    font-weight: 500;
+}
+
+.introduction-buttons{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.introduction-btn { 
+    margin-top: 30px;
+    color: var(--cor-c1);
+    background-color: var(--cor-c11);
+    font-size: 24px;
+    padding: 10px 42px;
+    border: 2px solid var(--cor-p3);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .introduction-fs-g {
+        font-size: 54px;
+        letter-spacing: -1px;
+        line-height: 62px;
+    }
+
+    .introduction-fs-m {
+        font-size: 22px;
+    }
+
 }
