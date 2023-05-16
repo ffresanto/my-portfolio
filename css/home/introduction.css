@@ -1,0 +1,6 @@
+.introduction-bg {
+    background-color: var(--cor-c11);
+    color: var(--cor-c1);
+    height: 90vh;
+    font-family: "Poppins", sans-serif;
+}

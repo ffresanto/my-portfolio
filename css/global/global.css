@@ -13,3 +13,7 @@ blockquote,
 dd {
   margin: 0px;
 }
+
+body{
+  background-color: var(--cor-c11);
+}

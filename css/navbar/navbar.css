@@ -145,6 +145,7 @@
     
     .hamburger {
         display: block;
+        cursor: pointer;
     }
     
     .dropdown {
@@ -155,5 +156,9 @@
     
     .dropdown li:hover {
         background-color: var(--cor-p3);
+    }
+
+    .dropdown li > a:hover {
+        color: var(--cor-c1);
     }
 }
