@@ -32,19 +32,65 @@
 
 .introduction-buttons{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
+}
+
+.introduction-btn-content{
+    display: flex;
+    justify-content: center;
 }
 
 .introduction-btn { 
-    margin-top: 30px;
+    display: flex;
+    align-items: center;
     color: var(--cor-c1);
     background-color: var(--cor-c11);
     font-size: 24px;
-    padding: 10px 42px;
+    padding: 10px 36px;
     border: 2px solid var(--cor-p3);
     border-radius: 5px;
     cursor: pointer;
 }
+
+.introduction-btn img{ 
+    margin-right: 10px; 
+}
+
+
+.introduction-btn:hover { 
+    border: 2px solid var(--cor-c1);
+    transition: 0.3s ease;
+}
+
+.introduction-icons {
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+.introduction-icons ul{
+    display: flex;
+    gap: 30px;
+}
+
+
+.introduction-icons a{
+    text-decoration: none;
+}
+
+.introduction-icons li{
+    list-style: none;
+}
+
+.social-icon  {
+    opacity: 1; /* Opacidade inicial */
+    transition: opacity 0.3s ease; /* Adiciona uma transição suave */
+  }
+
+.social-icon:hover {
+    opacity: 0.5; /* Opacidade no hover */
+  }
 
 @media (max-width: 768px) {
 

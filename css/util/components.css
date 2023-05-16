@@ -6,3 +6,18 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.title-container {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 00px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title-container::after {
+    content: ".";
+    color: var(--cor-p3);
+}

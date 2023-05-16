@@ -4,3 +4,5 @@
 @import "./header/header.css";
 @import "./navbar/navbar.css";
 @import "./home/introduction.css";
+@import "./home/about.css";
+@import "./home/education.css";

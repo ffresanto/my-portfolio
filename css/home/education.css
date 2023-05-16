@@ -1,0 +1,12 @@
+.education-bg {
+    background-color: var(--cor-c14);
+    color: var(--cor-c1);
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.education-content{
+    font-size: 24px;
+}

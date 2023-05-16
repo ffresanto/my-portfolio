@@ -12,8 +12,17 @@ p,
 blockquote,
 dd {
   margin: 0px;
+  font-size: inherit; /* Herda o tamanho de fonte do elemento pai */
+  font-weight: inherit; /* Herda o peso da fonte do elemento pai */
+  line-height: inherit; /* Herda a altura de linha do elemento pai */
 }
 
 body{
   background-color: var(--cor-c11);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
