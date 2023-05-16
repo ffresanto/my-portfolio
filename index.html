@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Portfolio - Franccesco Felipe Rodrigues</title>
-    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>teste</h1>
+    <header>
+        <nav class="navbar">
+                <!-- LOGO -->
+                <div class="logo">{F<div class="detalhe">.</div>}</div>
+                
+                <!-- NAVIGATION MENU -->
+                <ul class="nav-links">
+                    
+                    <!-- USING CHECKBOX HACK -->
+                    <input class="nav-checkbox" type="checkbox" id="checkbox_toggle" />
+                    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                    
+                    <!-- NAVIGATION MENUS -->
+                    <div class="menu">
+                    
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">About</a></li>               
+                        <li><a href="/">Education</a></li>
+                        <li><a href="/">Skills</a></li>
+                        <li><a href="/">Experience</a></li>
+                        <li class="services">
+                            <a>Language</a>
+                            
+                                <!-- DROPDOWN MENU -->
+                                <ul class="dropdown">
+                                    <li><a href="/">English </a></li>
+                                    <li><a href="/">Portugues</a></li>
+                                </ul>
+                            
+                            </li>
+                    </div>
+                </ul>
+        </nav>
+    </header>
 </body>
 </html>
