@@ -9,7 +9,7 @@
 
 
 .skills-title {
-    font: 600 24px/36px 'Poppins', sans-serif;
+    font: 600 20px/36px 'Poppins', sans-serif;
     color: var(--cor-c6);
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -29,6 +29,11 @@
     align-items: center;
     border-radius: 5px;
     font: 400 20px/23px 'Roboto', sans-serif;
+}
+
+.skills-icons li:hover {
+    transition: 0.3s ease;
+    box-shadow:0px 0px 0px 2px var(--cor-p3);
 }
 
 .skills-icons li img {
