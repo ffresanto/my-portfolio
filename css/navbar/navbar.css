@@ -28,10 +28,20 @@
     color: var(--cor-c1);
 }
     
+.logo a{
+    text-decoration: none;
+    color: var(--cor-c1);
+}
+
+.logo strong{
+    color: var(--cor-p3);
+}
+
     /* LOGO */
 .logo {
     font-family: "Poppins", sans-serif;
     font-size: 32px;
+    cursor: pointer;
 }
 
 .detalhe {
