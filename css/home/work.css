@@ -1,0 +1,51 @@
+.work-bg {
+    background-color: var(--cor-c14);
+    color: var(--cor-c1);
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.work-content {
+    background-color: var(--cor-c13);
+    padding: 50px;
+    border-radius: 5px;
+    font: 400 18px/24px 'Roboto', sans-serif;
+}
+
+.work-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font: 700 20px/30px 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+#work-title-company {
+    font-family: 'Poppins', sans-serif;
+}
+
+.work-description{
+    margin-bottom: 20px;
+    color: var(--cor-c6);
+}
+
+.work-description strong{
+    color: var(--cor-c1);
+}
+
+.work-skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.work-skills li {
+    list-style: none;
+    background-color: var(--cor-p3);
+    font: 600 16px/24px 'Poppins', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
