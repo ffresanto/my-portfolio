@@ -12,6 +12,11 @@
     padding: 50px;
     border-radius: 5px;
     font: 400 18px/24px 'Roboto', sans-serif;
+    margin-bottom: 40px;
+}
+
+.work-content:last-child {
+    margin-bottom: 0px;
 }
 
 .work-title {
@@ -48,4 +53,24 @@
     padding: 10px;
     border-radius: 5px;
     text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+
+    .work-content {
+        padding: 20px;
+    }
+  
+    .work-title {
+        font-size: 18px;
+    }
+
+    .work-description {
+        font-size: 16px;
+    }
+
+    .work-skills li {
+        font-size: 14px;
+    }
+    
 }
