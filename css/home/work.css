@@ -30,6 +30,7 @@
     text-transform: uppercase;
     font: 700 20px/30px 'Roboto', sans-serif;
     margin-bottom: 20px;
+    line-height: 20px;
 }
 
 #work-title-company {
@@ -69,7 +70,7 @@
     background-color: var(--cor-c10);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
 
     .work-content {
         padding: 20px;
@@ -86,5 +87,9 @@
     .work-skills li {
         font-size: 14px;
     }
-    
+
+    .work-year-big{
+        font-size: 16px;
+        line-height: 16px;
+    }
 }
