@@ -159,9 +159,11 @@
     }
     
     .dropdown {
-        left: -10%;
-        top: 30px;
-        transform: translateX(35%);
+        top: 50px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        background-color: var(--cor-c11);
     }
     
     .dropdown li:hover {
