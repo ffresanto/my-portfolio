@@ -121,6 +121,10 @@
     font-size: 24px;
     user-select: none;
 }
+
+.menu-language {
+    display: none;
+}
     
     /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
@@ -162,8 +166,17 @@
         top: 50px;
         left: 50%;
         transform: translate(-50%, -50%);
-        display: block;
+        display: none;
         background-color: var(--cor-c11);
+    }
+
+
+    .services{
+        display: none;
+    }
+    
+    .menu-language {
+        display: block;
     }
     
     .dropdown li:hover {
