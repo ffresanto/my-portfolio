@@ -34,6 +34,6 @@ Devem ser adicionadas na frente do código essencial do item 7.
   .js .anime-init {
     opacity: 1;
     transform: translate3D(0px, 0px, 0px);
-    transition: .3s all ease;
+    transition: 0.8s all ease;
   }
   
