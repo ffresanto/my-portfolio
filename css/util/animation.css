@@ -19,8 +19,21 @@ Devem ser adicionadas na frente do código essencial do item 7.
   .js [data-anime] {
     opacity: 0;
   }
+
   .js .anime {
     opacity: 1;
     transform: none;
     transition: transform 0.8s, opacity 0.8s;
   }
+
+  .js .anime-scroll {
+    opacity: 0;
+    transform: translate3D(-50px, 0px, 0px);
+  }
+  
+  .js .anime-init {
+    opacity: 1;
+    transform: translate3D(0px, 0px, 0px);
+    transition: .3s all ease;
+  }
+  
