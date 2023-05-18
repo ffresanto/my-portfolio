@@ -4,9 +4,6 @@ if (window.SimpleAnime) {
     new SimpleAnime();
 }
 
-var root = document.documentElement;
-root.className += ' js';
-
 function boxTop(idBox) {
 	var boxOffset = $(idBox).offset().top;
 	return boxOffset;
