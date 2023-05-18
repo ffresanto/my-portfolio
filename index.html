@@ -18,7 +18,7 @@
     <header>
         <nav class="navbar">
                 <!-- LOGO -->
-                <div class="logo"><a href="/">{F<strong>.</strong>}</a></div>
+                <div class="logo" data-anime="400"><a href="/">{F<strong>.</strong>}</a></div>
                 
                 <!-- NAVIGATION MENU -->
                 <ul class="nav-links">
@@ -28,7 +28,7 @@
                     <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                     
                     <!-- NAVIGATION MENUS -->
-                    <div class="menu">
+                    <div class="menu fadeInLeft" data-anime="400">
                     
                         <li><a href="/">Home</a></li>
                         <li><a href="#about">About</a></li>               
@@ -53,18 +53,18 @@
         <div class="container">
             <div class="introduction-bg">
                 <div class="introduction-content">
-                    <p class="introduction-fs-m">Hello, I Am</p>
-                    <h1 class="introduction-fs-g">Franccesco<div class="detail">.</div></h1>
-                    <h2 class="introduction-fs-m">A Software Engineer from Brazil</h2>
+                    <p class="introduction-fs-m fadeInLeft" data-anime="200">Hello, I Am</p>
+                    <h1 class="introduction-fs-g fadeInRight" data-anime="200">Franccesco<div class="detail">.</div></h1>
+                    <h2 class="introduction-fs-m fadeInLeft" data-anime="200" >A Software Engineer from Brazil</h2>
                     <div class="introduction-buttons">
-                        <div class="introduction-icons">
+                        <div class="introduction-icons fadeInRight" data-anime="500">
                             <ul>
                                 <li><a href="/"><img class="social-icon" src="./img/social/linkedin.svg" alt="Icone Linkedin"></a></li>
                                 <li><a href="/"><img class="social-icon" src="./img/social/github.svg" alt="Icone Github"></a></li>
                                 <li><a href="/"><img class="social-icon" src="./img/social/whatsapp.svg" alt="Icone whatsapp"></a></li>
                             </ul>
                         </div>
-                        <div class="introduction-btn-content">
+                        <div class="introduction-btn-content fadeInLeft" data-anime="500">
                             <button class="introduction-btn"><img src="img/icons/download.svg" alt="download">Resume<div class="detail">.</div></button>
                         </div>
                     </div>
@@ -296,7 +296,9 @@
                 </ul>
             </div>
             </div>
-          
     </footer>
+
+    <script src="./js/plugin/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
