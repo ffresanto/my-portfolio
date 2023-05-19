@@ -19,7 +19,6 @@
 .skills-icons li {
     list-style: none;
     background-color: var(--cor-c10);
-    margin-right: 15px;
     min-width: 120px;
     min-height: 120px;
     display: flex;
@@ -44,6 +43,7 @@
 .skills-icons ul {
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
 }
 
 
