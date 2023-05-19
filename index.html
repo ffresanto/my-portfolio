@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <title>Franccesco - Full-Stack Software Engineer</title>
     <meta name="description" content="Full-Stack Software Enginee Located in Brazil in the city of Sao Paulo">
 
+    <link rel="shortcut icon" href="./img/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -21,7 +22,7 @@
     <header>
         <nav class="navbar">
                 <!-- LOGO -->
-                <div class="logo" data-anime="400"><a href="">{F<strong>.</strong>}</a></div>
+                <div class="logo" data-anime="400"><a href="#home">{F<strong>.</strong>}</a></div>
                 
                 <!-- NAVIGATION MENU -->
                 <ul class="nav-links">
@@ -33,7 +34,7 @@
                     <!-- NAVIGATION MENUS -->
                     <div class="menu fadeInLeft" data-anime="400">
                     
-                        <li><a href="">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>               
                         <li><a href="#education">Education</a></li>
                         <li><a href="#skills">Skills</a></li>
@@ -43,20 +44,20 @@
                             
                                 <!-- DROPDOWN MENU -->
                                 <ul class="dropdown">
-                                    <li><a href="/">English</a></li>
-                                    <li><a href="/">Portuguese</a></li>
+                                    <li><a href="#home">English</a></li>
+                                    <li><a href="#home">Portuguese</a></li>
                                 </ul>
                             
                             </li>
-                        <li class="menu-language"><a href="/">English</a></li>
-                        <li class="menu-language"><a href="/">Portuguese</a></li>
+                        <li class="menu-language"><a href="#home">English</a></li>
+                        <li class="menu-language"><a href="#home">Portuguese</a></li>
                     </div>
                 </ul>
         </nav>
     </header>
     <main>
         <div class="container">
-            <div class="introduction-bg">
+            <div class="introduction-bg" id="home">
                 <div class="introduction-content">
                     <p class="introduction-fs-m fadeInLeft" data-anime="200">Hello, I Am</p>
                     <h1 class="introduction-fs-g fadeInRight" data-anime="200">Franccesco<div class="detail">.</div></h1>
@@ -121,51 +122,21 @@
 
                 <div class="education-additional" id="education-additional-first">
                     <h3>Crash Course</h3>
-                    <div class="education-additional-item">
-                        <p>UI Design</p><p class="education-additional-horas">34H</p>
-                    </div>
-                    <div class="education-additional-item">
-                        <p>JavaScript ES6</p><p class="education-additional-horas">74H</p>
-                    </div>
-                    <div class="education-additional-item">
-                        <p>HTML and CSS</p><p class="education-additional-horas">46H</p>
-                    </div>
-                    <div class="education-additional-item">
-                        <p>Authority Certificate React</p><p class="education-additional-horas">57H</p>
-                    </div>
-                    <div class="education-additional-item">
-                        <p>Google Cloud Computing</p><p class="education-additional-horas">40H</p>
-                    </div>
-                    <div class="education-additional-item">
-                        <p>Remote Work And Virtual Collaboration</p><p class="education-additional-horas">20H</p>
-                    </div>
-                    <div class="education-additional-item">
-                        <p>Kanban Foundation KIKF</p><p class="education-additional-horas">20H</p>
-                    </div>
-                    <div class="education-additional-item">
-                        <p>GoF Design Patterns</p><p class="education-additional-horas">4H</p>
-                    </div>
-                    <div class="education-additional-item">
-                        <p>Visual Basic NET + OOP</p><p class="education-additional-horas">5H</p>
-                    </div>
-                    <div class="education-additional-item">
-                        <p>C# - Applying SOLID Principles in Practice</p><p class="education-additional-horas">9H</p>
-                    </div>
-                    <div class="education-additional-item">
-                        <p>C# - Unit testing with NUnit and Moq</p><p class="education-additional-horas">4H</p>
-                    </div>
-                    <div class="education-additional-item">
-                        <p>C# - Programming Logic and Algorithms</p><p class="education-additional-horas">8H</p>
-                    </div>
-                    <div class="education-additional-item">
-                        <p>Java - Microservices with Spring Boot and Spring Cloud</p><p class="education-additional-horas">9H</p>
-                    </div>
-                    <div class="education-additional-item">
-                        <p>Java - OOP</p><p class="education-additional-horas">54H</p>
-                    </div>
-                    <div class="education-additional-item">
-                        <p>MYSQL Developer Expert - Basic to Advanced</p><p class="education-additional-horas">16H</p>
-                    </div>
+                    <div class="education-additional-item"><p>UI Design</p><p class="education-additional-horas">34H</p></div>
+                    <div class="education-additional-item"><p>JavaScript ES6</p><p class="education-additional-horas">74H</p></div>
+                    <div class="education-additional-item"><p>HTML and CSS</p><p class="education-additional-horas">46H</p></div>
+                    <div class="education-additional-item"><p>Authority Certificate React</p><p class="education-additional-horas">57H</p></div>
+                    <div class="education-additional-item"><p>Google Cloud Computing</p><p class="education-additional-horas">40H</p></div>
+                    <div class="education-additional-item"><p>Remote Work And Virtual Collaboration</p><p class="education-additional-horas">20H</p></div>
+                    <div class="education-additional-item"><p>Kanban Foundation KIKF</p><p class="education-additional-horas">20H</p></div>
+                    <div class="education-additional-item"><p>GoF Design Patterns</p><p class="education-additional-horas">4H</p></div>
+                    <div class="education-additional-item"><p>Visual Basic NET + OOP</p><p class="education-additional-horas">5H</p></div>
+                    <div class="education-additional-item"><p>C# - Applying SOLID Principles in Practice</p><p class="education-additional-horas">9H</p></div>
+                    <div class="education-additional-item"><p>C# - Unit testing with NUnit and Moq</p><p class="education-additional-horas">4H</p></div>
+                    <div class="education-additional-item"><p>C# - Programming Logic and Algorithms</p><p class="education-additional-horas">8H</p></div>
+                    <div class="education-additional-item"><p>Java - Microservices with Spring Boot and Spring Cloud</p><p class="education-additional-horas">9H</p></div>
+                    <div class="education-additional-item"><p>Java - OOP</p><p class="education-additional-horas">54H</p></div>
+                    <div class="education-additional-item"><p>MYSQL Developer Expert - Basic to Advanced</p><p class="education-additional-horas">16H</p></div>
                 </div>
 
                 <div class="education-additional">

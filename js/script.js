@@ -1,5 +1,16 @@
 //Active plugin animation
 
+window.addEventListener('scroll', function() {
+    var navbar = document.querySelector('.navbar');
+    var distanceFromTop = navbar.offsetTop;
+
+    if (window.pageYOffset > distanceFromTop) {
+      navbar.classList.add('fixed-navbar');
+    } else {
+      navbar.classList.remove('fixed-navbar');
+    }
+  });
+  
 if (window.SimpleAnime) {
     new SimpleAnime();
 }

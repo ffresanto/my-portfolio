@@ -92,4 +92,15 @@
         line-height: 32px;
     }
 
+    
+    .education-additional, .education-additional-horas{
+        font-size: 16px;
+        gap: 5px;
+
+    }
+
+    .education-additional {
+        margin-bottom: 20px;
+    }
+
 }
