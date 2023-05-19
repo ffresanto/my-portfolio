@@ -23,13 +23,13 @@
 
 .education-item h4{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 28px;
     color:  var(--cor-c6);
 }
 
 .education-item h3{
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 40px;
     font-weight: 700;
     color: var(--cor-c1);  
@@ -46,7 +46,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 32px;
     gap: 15px;
     margin-bottom: 40px;
@@ -72,7 +72,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 @media (max-width: 768px) {
@@ -82,19 +82,19 @@
     }
 
     .education-item h4{
-        font-size: 18px;
+        font-size: 1.125rem;
         line-height: 24px;
     }
 
     
     .education-item h3{
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 32px;
     }
 
     
     .education-additional, .education-additional-horas{
-        font-size: 16px;
+        font-size: 1rem;
         gap: 5px;
 
     }

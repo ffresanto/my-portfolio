@@ -11,7 +11,7 @@
     background-color: var(--cor-c13);
     padding: 50px;
     border-radius: 5px;
-    font: 400 18px/24px 'Roboto', sans-serif;
+    font: 400 1.125rem/24px 'Roboto', sans-serif;
     margin-bottom: 40px;
 }
 
@@ -28,7 +28,7 @@
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
-    font: 700 20px/30px 'Roboto', sans-serif;
+    font: 700 1.25rem/30px 'Roboto', sans-serif;
     margin-bottom: 20px;
     line-height: 20px;
 }
@@ -55,7 +55,7 @@
 .work-skills li {
     list-style: none;
     background-color: var(--cor-p3);
-    font: 600 16px/24px 'Poppins', sans-serif;
+    font: 600 1rem/24px 'Poppins', sans-serif;
     padding: 10px;
     border-radius: 5px;
     text-transform: uppercase;
@@ -77,19 +77,19 @@
     }
   
     .work-title {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     .work-description {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .work-skills li {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     .work-year-big{
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 16px;
     }
 }
