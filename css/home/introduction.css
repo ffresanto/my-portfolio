@@ -40,6 +40,11 @@
     justify-content: center;
 }
 
+.introduction-btn-content a{
+    text-decoration: none;
+    border: none;
+}
+
 .introduction-btn { 
     display: flex;
     align-items: center;
