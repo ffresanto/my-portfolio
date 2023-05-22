@@ -12,6 +12,10 @@ O objetivo deste portfólio é mostrar minhas experiências e demonstrar minhas 
 
 https://ffresanto.github.io/my-portfolio/
 
+## Protótipo
+
+https://www.figma.com/community/file/1242537007641200008
+
 ## Recursos e Funcionalidades
 
 Meu portfólio consiste nas seguintes seções:
@@ -43,6 +47,10 @@ The objective of this portfolio is to showcase my experiences and demonstrate my
 ## Demo
 
 https://ffresanto.github.io/my-portfolio/
+
+## Prototype
+
+https://www.figma.com/community/file/1242537007641200008
 
 ## Features
 
