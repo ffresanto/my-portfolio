@@ -40,6 +40,7 @@
 .work-description{
     margin-bottom: 20px;
     color: var(--cor-c6);
+    line-height: 1.4;
 }
 
 .work-description strong{
